@@ -21,7 +21,7 @@
 
 <body>
     <nav class="navbar navbar-none bg-dark">
-        <div class="container px-5">
+        <div class="container-fluid px-5 m-md-0">
             <a class="navbar-brand" href="#" style="color: white">Navbar brand</a>
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
           <span class="navbar-toggler-icon"></span>
@@ -65,8 +65,8 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid bg-dark" style="height: fit-content; padding: 100px 32px">
-        <div class="container d-flex">
+    <div class="container-fluid bg-dark" style="height: fit-content; padding: 100px 32px;">
+        <div class="container-fluid d-flex justify-content-between" style="margin-right:0;margin-left: 0;">
             <!-- Text -->
             <div>
                 <h1 style="color: white">
@@ -75,15 +75,15 @@
                 <p style="color: white">
                     Predictive Chat’s SMS Technology combines Human and Artificial Intelligence to save you time and energy while generating new business.
                 </p>
+                <button class="btn btn-success" style="width: 200px; height: 50px; border-radius: 40px; color: black">
+                  Schedule a Demo
+                </button>
             </div>
             <!-- Image -->
-            <div class="container d-none d-sm-block" style="width: 210px; height: 210px">
-                <img style="width: 200px; height: 200px" src="https://media.discordapp.net/attachments/974506101284438017/984323976299958272/unknown.png?width=846&height=937" />
+            <div class="container-fluid d-none d-sm-block" style="width: 310px; height: 310px">
+                <img style="width: 300px; height: 300px" src="https://media.discordapp.net/attachments/974506101284438017/984323976299958272/unknown.png?width=846&height=937" />
             </div>
         </div>
-        <button class="btn btn-success" style="width: 200px; height: 50px; border-radius: 40px; color: black">
-        Schedule a Demo
-      </button>
     </div>
     <div class="container-fluid bg-light" style="height: fit-content; padding-top: 32px">
         <h1 class="text-center">About us</h1>
@@ -94,166 +94,103 @@
             orci massa adipiscing. In nulla ipsum leo scelerisque volutpat, vestibulum id arcu lobortis. Adipiscing viverra in lorem.
         </p>
     </div>
-    <div class="container-fluid d-flex align-items-center flex-column gap-3 bg-white">
-        <div class="card" style="width: 18rem;padding:64px 32px">
-            <img src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg" class="card-img-top" alt="" />
-            <div class="card-body">
-                <h5 class="card-title">Hooog riidaah</h5>
-                <p class="card-text">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.
+    <div class="container-fluid d-flex align-items-center flex-column gap-5 bg-white;padding:64px 32px">
+        <div class="container-fluid d-md-flex gap-4">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41g8yeF0NWL._SL500_AC_SS350_.jpg" style="width:350px;height:350px;border-radius: 30px;" />
+            <div class="container-fluid d-flex flex-column justify-content-center">
+                <h1 class="text-start">We serve clients with ground breaking solutions</h1>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.</p>
+                <button class="btn btn-dark" style="border-radius: 30px;width: 150px;">Read more</button>
+            </div>
+        </div>
+        <div class="container-fluid d-flex flex-column-reverse gap-4 flex-md-row">
+            <div class="container-fluid d-flex flex-column justify-content-center">
+                <h1 class="text-start">We serve clients with ground breaking solutions</h1>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.</p>
+                <button class="btn btn-dark" style="border-radius: 30px;width: 150px;">Read more</button>
+            </div>
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41g8yeF0NWL._SL500_AC_SS350_.jpg" style="width:350px;height:350px;border-radius: 30px;" />
+        </div>
+        <div class="container-fluid d-md-flex gap-4">
+            <img src="https://images-na.ssl-images-amazon.com/images/I/41g8yeF0NWL._SL500_AC_SS350_.jpg" style="width:350px;height:350px;border-radius: 30px;" />
+            <div class="container-fluid d-flex flex-column justify-content-center">
+                <h1 class="text-start">We serve clients with ground breaking solutions</h1>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.</p>
+                <button class="btn btn-dark" style="border-radius: 30px;width: 150px;">Read more</button>
+            </div>
+        </div>
+    </div>
+    <div class="contianer-fluid d-flex flex-column align-items-center bg-light" style="height: fit-content; gap: 32px; padding: 64px 32px">
+        <h1 class="text-center">Our Solution</h1>
+        <div class="container-fluid d-flex flex-column align-items-center gap-4">
+            <div class="container-fluid d-md-flex justify-content-center gap-4  ">
+                <div class="card row-md-cols-1" style="width:300px;height:300px">
+                    <img src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg" class="card-img-top" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hooog riidaah</h5>
+                        <p class="card-text">
+                            Start running campaigns and reach and convert old/cold lead like never before
+                        </p>
+                    </div>
+                </div>
+                <div class="card row-md-cols-1" style="width:300px;height:300px">
+                    <img src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg" class="card-img-top" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hooog riidaah</h5>
+                        <p class="card-text">
+                            Start running campaigns and reach and convert old/cold lead like never before
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="cintainer-fluid d-md-flex justify-content-center gap-4">
+                <div class="card row-md-cols-1" style="width:300px;height:300px">
+                    <img src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg" class="card-img-top" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hooog riidaah</h5>
+                        <p class="card-text">
+                            Start running campaigns and reach and convert old/cold lead like never before
+                        </p>
+                    </div>
+                </div>
+                <div class="card row-md-cols-1" style="width:300px;height:300px">
+                    <img src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg" class="card-img-top" alt="" />
+                    <div class="card-body">
+                        <h5 class="card-title">Hooog riidaah</h5>
+                        <p class="card-text">
+                            Start running campaigns and reach and convert old/cold lead like never before
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mx-0 px-3 py-5" style="height: fit-content">
+        <div class="container-fluid d-md-flex">
+            <div class="container-fluid w-100 w-md-50">
+                <h1 class="text-start">Pinecone</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat tempus sed morbi amet enim tristique velit, at semper. At sed.
                 </p>
-                <a class="btn btn-outline-dark" href="https://supercell.com/en/games/clashofclans/">Play me</a
-          >
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod
-            gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida
-            dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.
-          </p>
-          <a
-            class="btn btn-outline-dark"
-            href="https://supercell.com/en/games/clashofclans/"
-            >Play me</a
-          >
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod
-            gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida
-            dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.
-          </p>
-          <a
-            class="btn btn-outline-dark"
-            href="https://supercell.com/en/games/clashofclans/"
-            >Play me</a
-          >
-        </div>
-      </div>
-      <div class="card" style="width: 18rem">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nec euismod
-            gravida nulla rhoncus dictum. Malesuada rutrum facilisis non gravida
-            dolor velit, metus, elementum. Aenean in pharetra vitae condimentum.
-          </p>
-          <a
-            class="btn btn-outline-dark"
-            href="https://supercell.com/en/games/clashofclans/"
-            >Play me</a
-          >
-        </div>
-      </div>
-    </div>
-    <div
-      class="contianer-fluid d-flex flex-column align-items-center bg-light"
-      style="height: fit-content; gap: 32px; padding: 64px 32px"
-    >
-      <h1 class="text-center">Our Solution</h1>
-      <div class="card" style="width:300px;height:300px">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Start running campaigns and reach and convert old/cold lead like
-            never before
-          </p>
-        </div>
-      </div>
-      <div class="card" style="width:300px;height:300px">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Start running campaigns and reach and convert old/cold lead like
-            never before
-          </p>
-        </div>
-      </div>
-      <div class="card" style="width:300px;height:300px">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Start running campaigns and reach and convert old/cold lead like
-            never before
-          </p>
-        </div>
-      </div>
-      <div class="card" style="width:300px;height:300px">
-        <img
-          src="https://img.clasher.us/images/full/5dcf7a0dd44ba57f29414d5e.jpg"
-          class="card-img-top"
-          alt=""
-        />
-        <div class="card-body">
-          <h5 class="card-title">Hooog riidaah</h5>
-          <p class="card-text">
-            Start running campaigns and reach and convert old/cold lead like
-            never before
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="container" style="padding: 100px 32px 10px 32px; height: fit-content">
-      <h1 class="text-start">Pinecone</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat
-        tempus sed morbi amet enim tristique velit, at semper. At sed.
-      </p>
-      <h5>Follow us</h5>
-      <nav class="navbar">
-        <div class="container-fluid">
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-0"
-              type="search"
-              placeholder="Your Email Address"
-              aria-label="Search"
-            >
-              <button class="btn btn-outline-dark" type="submit">
+            </div>
+            <div class="container-fluid w-100 w-md-50" style="display: flex;justify-content: center;align-items: center;flex-direction: column;">
+                <h5>Follow us</h5>
+                <nav class="navbar">
+                    <div class="container-fluid">
+                        <form class="d-flex" role="search">
+                            <input class="form-control me-0" style="border-radius: 30px;" type="search" placeholder="Your Email Address" aria-label="Search">
+                            <button class="btn btn-outline-dark" style="border-radius: 30px;" type="submit">
                 Subscribe
-              </button>  
-            </input>
-          </form>
+              </button>
+                            </input>
+                        </form>
+                    </div>
+                </nav>
+            </div>
         </div>
-      </nav>
-      <hr>
-      <div class="text-center">Copyright © 2022. All right reserved</div>
+        <hr>
+        <div class="text-center">Copyright © 2022. All right reserved</div>
     </div>
-  </body>
+</body>
+
 </html>
